@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.ScrapTrack" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">#6200EE</item>  <!-- Primary color -->
+        <item name="colorPrimaryVariant">#3700B3</item>  <!-- Primary color variant -->
+        <item name="colorOnPrimary">#FFFFFF</item>  <!-- Text color on primary color -->
+
+        <item name="colorSecondary">#03DAC5</item>  <!-- Secondary color -->
+        <item name="colorOnSecondary">#000000</item>  <!-- Text color on secondary color -->
+
+        <item name="android:windowBackground">#FFFFFF</item>  <!-- Background color -->
+        <item name="android:textColor">#000000</item>  <!-- Default text color -->
+
+        <!-- Add other theme attributes as needed -->
+    </style>
+
+</resources>

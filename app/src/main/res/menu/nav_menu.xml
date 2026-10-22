@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/nav_transactions"
+        android:title="Transactions" />
+    <item
+        android:id="@+id/nav_transactions_history"
+        android:title="Transaction History" />
+    <item
+        android:id="@+id/nav_marketlaod"
+        android:title="Market Load"/>
+    <item
+        android:id="@+id/nav_market_history"
+        android:title="Market History" />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/nav_analysis"
+        android:title="Analysis"/>
+    <item
+        android:id="@+id/nav_sign_out"
+        android:title="Sign Out" />
+</menu>

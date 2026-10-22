@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Permission for Internet access -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="requestLegacyExternalStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/scraptarck_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/scraptarck_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ScrapTrack">
+
+        <meta-data
+            android:name="com.google.firebase.auth.APPCHECK_SITE_KEY"
+            android:value="6LcW_4AqAAAAAFY5Wu1B4YkXQl7FkWG0eLX8OWXc" />
+
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ScrapTrack">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TransactionActivity" />
+        <activity android:name=".AddItemActivity" />
+        <activity android:name=".BalanceActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".OtpVerificationActivity" />
+        <activity android:name=".TransactionHistoryActivity"/>
+        <activity android:name="AnalysisActivity"/>
+        <activity android:name=".MarketActivity"/>
+        <activity android:name=".MarketHistoryActivity"/>
+    </application>
+
+</manifest>

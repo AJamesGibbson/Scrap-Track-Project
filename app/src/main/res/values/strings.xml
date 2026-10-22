@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ScrapTrack</string>
+    <string-array name="unit_options">
+        <item>Kg</item>
+        <item>Gram</item>
+    </string-array>
+
+</resources>

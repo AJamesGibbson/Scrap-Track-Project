@@ -1,0 +1,14 @@
+<!-- res/drawable/nav_item_background.xml -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:attr/colorControlHighlight"> <!-- Ripple color -->
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#82EEFD" /> <!-- Change the background color -->
+            <corners android:radius="4dp" /> <!-- Add rounded corners -->
+            <stroke
+                android:width="2dp"
+                android:color="#FFFFFF" /> <!-- Change border color -->
+        </shape>
+    </item>
+</ripple>
